@@ -1,0 +1,27 @@
+.icon-space {
+    display: flex;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.example-button-row {
+    display: table-cell;
+    width: 490px;
+}
+
+.button-label {
+    margin-left: 10px;
+}
+
+.head-space {
+    margin-left: 10px;
+}
+
+mat-toolbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
